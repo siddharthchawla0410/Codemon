@@ -1,0 +1,24 @@
+{
+  "python": {
+    "basic": {
+      "title": "Basic Declaration",
+      "explanation": "Python uses dynamic typing - no need to declare types explicitly."
+    },
+    "type_hints": {
+      "title": "With Type Hints",
+      "explanation": "Type hints help with IDE support and static analysis but don't enforce types at runtime."
+    }
+  },
+  "javascript": {
+    "let_const": {
+      "title": "let & const",
+      "explanation": "Use let for reassignable variables, const for constants. Avoid var."
+    }
+  },
+  "java": {
+    "basic": {
+      "title": "Explicit Types",
+      "explanation": "Java is statically typed - every variable needs a declared type."
+    }
+  }
+}

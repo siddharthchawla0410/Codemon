@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Return Values", "explanation": "Can return multiple values as tuple, automatically unpacked."}},
+  "javascript": {"basic": {"title": "Return Values", "explanation": "Return objects for multiple values, use destructuring."}},
+  "java": {"basic": {"title": "Return Values", "explanation": "Must declare return type. Use arrays or objects for multiple values."}}
+}

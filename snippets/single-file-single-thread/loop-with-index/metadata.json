@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Enumerate Loop", "explanation": "enumerate() returns index-value pairs for iteration."}},
+  "javascript": {"basic": {"title": "forEach with Index", "explanation": "forEach callback receives element and index as arguments."}},
+  "java": {"basic": {"title": "Traditional For Loop", "explanation": "Use index variable to access array elements by position."}}
+}

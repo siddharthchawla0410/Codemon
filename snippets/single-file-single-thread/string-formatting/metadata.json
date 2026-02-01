@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "String Formatting", "explanation": "f-strings (Python 3.6+) are the modern way to format strings."}},
+  "javascript": {"basic": {"title": "Template Literals", "explanation": "Use backticks and ${} for string interpolation."}},
+  "java": {"basic": {"title": "String Formatting", "explanation": "Use String.format() with printf-style format specifiers."}}
+}

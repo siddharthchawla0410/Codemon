@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Basic While", "explanation": "Loop continues while condition is True."}},
+  "javascript": {"basic": {"title": "Basic While", "explanation": "Loop executes while condition is true."}},
+  "java": {"basic": {"title": "Basic While", "explanation": "Standard while loop checking condition before each iteration."}}
+}

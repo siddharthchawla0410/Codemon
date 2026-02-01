@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "List Declaration", "explanation": "Python lists are dynamic, can hold mixed types."}},
+  "javascript": {"basic": {"title": "Array Declaration", "explanation": "Arrays are dynamic, can hold mixed types."}},
+  "java": {"basic": {"title": "Array Declaration", "explanation": "Arrays are fixed-size and typed at compile time."}}
+}

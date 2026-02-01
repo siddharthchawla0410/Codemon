@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Match Statement", "explanation": "Python 3.10+ structural pattern matching with match/case."}},
+  "javascript": {"basic": {"title": "Switch Statement", "explanation": "Classic switch with break statements to prevent fall-through."}},
+  "java": {"basic": {"title": "Switch Statement", "explanation": "Traditional switch statement with break to exit each case."}}
+}

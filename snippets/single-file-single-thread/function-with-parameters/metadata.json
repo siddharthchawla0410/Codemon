@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Function Parameters", "explanation": "Supports positional, default, and keyword arguments."}},
+  "javascript": {"basic": {"title": "Function Parameters", "explanation": "Supports default parameter values with = syntax."}},
+  "java": {"basic": {"title": "Method Overloading", "explanation": "Java uses method overloading instead of default parameters."}}
+}

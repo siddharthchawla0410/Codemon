@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Write File", "explanation": "Use the 'with' statement to ensure files are properly closed. Mode 'w' overwrites, 'a' appends."}},
+  "javascript": {"sync": {"title": "Write File (Sync)", "explanation": "Node.js fs module provides synchronous file writing with writeFileSync."}},
+  "java": {"basic": {"title": "Write File", "explanation": "Java NIO Files class provides convenient methods for writing strings and lines to files."}}
+}

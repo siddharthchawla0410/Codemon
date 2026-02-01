@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "List Methods", "explanation": "Built-in methods for common list operations."}},
+  "javascript": {"basic": {"title": "Array Methods", "explanation": "Mutating methods that modify the original array."}},
+  "java": {"basic": {"title": "ArrayList Methods", "explanation": "Use ArrayList for dynamic arrays with built-in methods."}}
+}

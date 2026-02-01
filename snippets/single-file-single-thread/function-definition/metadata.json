@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Function Definition", "explanation": "Define functions with def keyword. No return type declaration needed."}},
+  "javascript": {"basic": {"title": "Function Declaration", "explanation": "Declare functions with function keyword. Hoisted to top of scope."}},
+  "java": {"basic": {"title": "Method Definition", "explanation": "Methods must specify return type (void for no return) and access modifier."}}
+}

@@ -1,0 +1,20 @@
+{
+  "python": {
+    "basic": {
+      "title": "UPPERCASE Convention",
+      "explanation": "Python doesn't have true constants, but UPPERCASE naming indicates values shouldn't be changed."
+    }
+  },
+  "javascript": {
+    "const": {
+      "title": "const Keyword",
+      "explanation": "const prevents reassignment but doesn't make objects immutable."
+    }
+  },
+  "java": {
+    "final": {
+      "title": "final Keyword",
+      "explanation": "The final keyword prevents the variable from being reassigned."
+    }
+  }
+}

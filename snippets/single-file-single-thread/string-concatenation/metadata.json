@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "String Concatenation", "explanation": "Use +, join(), or f-strings for combining strings."}},
+  "javascript": {"basic": {"title": "String Concatenation", "explanation": "Use +, join(), or template literals for combining strings."}},
+  "java": {"basic": {"title": "String Concatenation", "explanation": "Use +, String.join(), or StringBuilder for efficiency."}}
+}

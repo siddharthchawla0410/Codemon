@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "List Iteration", "explanation": "for-in loop iterates directly over elements. Use enumerate() for index."}},
+  "javascript": {"basic": {"title": "Array Iteration", "explanation": "for-of loops over values, forEach for callback-style iteration."}},
+  "java": {"basic": {"title": "Array Iteration", "explanation": "Enhanced for loop (for-each) or traditional indexed loop."}}
+}

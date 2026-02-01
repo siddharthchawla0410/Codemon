@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "If-Elif-Else", "explanation": "Python uses elif for else-if. Indentation defines blocks."}},
+  "javascript": {"basic": {"title": "If-Else", "explanation": "Standard if-else chain with curly braces."}},
+  "java": {"basic": {"title": "If-Else", "explanation": "Standard if-else structure with curly braces."}}
+}

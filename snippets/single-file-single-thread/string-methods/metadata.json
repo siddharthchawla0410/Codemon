@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "String Methods", "explanation": "Python strings have built-in methods for case conversion, searching, and manipulation."}},
+  "javascript": {"basic": {"title": "String Methods", "explanation": "JavaScript strings are immutable; methods return new strings rather than modifying the original."}},
+  "java": {"basic": {"title": "String Methods", "explanation": "Java String objects are immutable. Use StringBuilder for mutable string operations."}}
+}

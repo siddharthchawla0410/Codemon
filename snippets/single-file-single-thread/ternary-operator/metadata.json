@@ -1,0 +1,5 @@
+{
+  "python": {"basic": {"title": "Conditional Expression", "explanation": "Syntax: value_if_true if condition else value_if_false"}},
+  "javascript": {"basic": {"title": "Ternary Operator", "explanation": "Syntax: condition ? value_if_true : value_if_false"}},
+  "java": {"basic": {"title": "Ternary Operator", "explanation": "Standard ternary with explicit type declaration."}}
+}

@@ -1,0 +1,20 @@
+{
+  "python": {
+    "basic": {
+      "title": "Basic File Read",
+      "explanation": "The 'with' statement ensures the file is properly closed after reading."
+    }
+  },
+  "javascript": {
+    "sync": {
+      "title": "Synchronous Read",
+      "explanation": "Blocks execution until file is read. Use for scripts, not servers."
+    }
+  },
+  "java": {
+    "basic": {
+      "title": "Files API",
+      "explanation": "Files class provides convenient methods for reading files."
+    }
+  }
+}

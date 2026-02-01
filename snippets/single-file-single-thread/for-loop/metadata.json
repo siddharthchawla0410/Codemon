@@ -1,0 +1,20 @@
+{
+  "python": {
+    "range": {
+      "title": "Using range()",
+      "explanation": "range(n) generates 0 to n-1. range(start, end) for custom range."
+    }
+  },
+  "javascript": {
+    "traditional": {
+      "title": "Traditional for",
+      "explanation": "C-style for loop with init, condition, and increment."
+    }
+  },
+  "java": {
+    "traditional": {
+      "title": "Traditional for",
+      "explanation": "Standard for loop with init, condition, and increment."
+    }
+  }
+}

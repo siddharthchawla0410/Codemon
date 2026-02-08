@@ -12,10 +12,16 @@ def get_language_by_slug(db: Session, slug: str) -> models.Language | None:
     return db.query(models.Language).filter(models.Language.slug == slug).first()
 
 
-def get_operations(db: Session, category: str | None = None) -> list[models.Operation]:
+def get_operations(
+    db: Session,
+    category: str | None = None,
+    complexity: models.Complexity | None = None
+) -> list[models.Operation]:
     query = db.query(models.Operation)
     if category:
         query = query.filter(models.Operation.category == category)
+    if complexity:
+        query = query.filter(models.Operation.complexity == complexity)
     return query.order_by(models.Operation.category, models.Operation.name).all()
 
 

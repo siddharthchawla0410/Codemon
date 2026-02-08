@@ -3,14 +3,19 @@ from sqlalchemy.orm import Session
 
 from .. import crud, schemas
 from ..database import get_db
+from ..models import Complexity
 
 router = APIRouter(prefix="/api/operations", tags=["operations"])
 
 
 @router.get("", response_model=list[schemas.Operation])
-def list_operations(category: str | None = None, db: Session = Depends(get_db)):
-    """Get all operations, optionally filtered by category."""
-    return crud.get_operations(db, category)
+def list_operations(
+    category: str | None = None,
+    complexity: Complexity | None = None,
+    db: Session = Depends(get_db)
+):
+    """Get all operations, optionally filtered by category and/or complexity."""
+    return crud.get_operations(db, category, complexity)
 
 
 @router.get("/{slug}", response_model=schemas.Operation)

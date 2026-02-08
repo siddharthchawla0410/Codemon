@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: codemon-api
+  labels:
+    app: codemon-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: codemon-api
+  template:
+    metadata:
+      labels:
+        app: codemon-api
+    spec:
+      containers:
+        - name: codemon-api
+          image: gcr.io/my-gcp-project/codemon-api:latest  # TODO: Update with GCP_PROJECT_ID and tag after each build
+          ports:
+            - containerPort: 8000
+          env:
+            - name: DATABASE_URL
+              value: "sqlite:////app/codemon.db"  # TODO: Replace with production DB URL
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 30
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: codemon-api
+spec:
+  selector:
+    app: codemon-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: LoadBalancer

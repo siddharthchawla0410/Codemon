@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: codemon-api
-          image: gcr.io/my-gcp-project/codemon-api:latest  # TODO: Update with GCP_PROJECT_ID and tag after each build
+          image: gcr.io/project-2cf612c4-a322-45ba-b8c/codemon-api:latest
           ports:
             - containerPort: 8000
           env:

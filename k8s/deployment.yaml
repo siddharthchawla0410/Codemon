@@ -19,9 +19,6 @@ spec:
           image: gcr.io/project-2cf612c4-a322-45ba-b8c/codemon-api:latest
           ports:
             - containerPort: 8000
-          env:
-            - name: DATABASE_URL
-              value: "sqlite:////app/codemon.db"  # TODO: Replace with production DB URL
           readinessProbe:
             httpGet:
               path: /

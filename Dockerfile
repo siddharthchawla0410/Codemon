@@ -7,7 +7,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app/ app/
 COPY snippets/ snippets/
+COPY seed_data.py .
 COPY sync_snippets.py .
+
+RUN python seed_data.py
 
 EXPOSE 8000
 
